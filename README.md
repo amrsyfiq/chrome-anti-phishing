@@ -1,4 +1,4 @@
-## chrome-anti-phishing
+# Chrome-Anti-Phishing
   In this project, a study will be conducted with three machine learning algorithms on a set of data representing the attributes usually associated with phishing pages. The best model will be selected based on performance and create a chrome browser plug-in that will be deploy to the end user. This chrome browser will help incautious user to detect and warn them about phishing websites in real-time. Here, the trained and evaluated supervised machine learning algorithms are used as training dataset. Random forest, Artificial Neural Networks and Support Vector Machines classifier were chosen based on their performance on classification problems. 
 
   One common approach is to make the classification in a server and then let the plugin to request the server for result. Unlike the old approach, this project aims to run the classification in the browser itself. The advantage of classification in the client-side browser is better privacy (the user’s browsing data do not need to leave their machine) and the detection also independent of network latency. 
