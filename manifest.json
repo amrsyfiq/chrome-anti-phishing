@@ -1,0 +1,44 @@
+{
+  "manifest_version": 2,
+  "name": "Chrome Anti-Phishing",
+  "short_name": "CAP",
+  "description": "CAP prevent phishing sites from being displayed",
+  "version": "1.1.3",
+  "author": "Amir Syafiq",
+  "background": {
+    "page": "html/background.html"
+  },
+  "browser_action": {
+    "default_icon": "icons/shield_green.png",
+    "default_popup": "html/optionPopup.html",
+    "default_title": "CAP"
+  },
+  "optional_permissions": ["history"],
+  "web_accessible_resources": [
+    "css/alert.css",
+    "html/warning.html",
+    "icons/shield_green.png"
+  ],
+  "permissions": [
+    "storage",
+    "webRequest",
+    "webRequestBlocking",
+    "<all_urls>",
+    "http://*/*",
+    "https://*/*",
+    "tabs",
+    "activeTab",
+    "https://www.google-analytics.com/*"
+  ],
+  "icons": {
+    "128": "icons/shield_green.png",
+    "48": "icons/shield_green.png",
+    "16": "icons/shield_green.png"
+  },
+  "content_scripts": [
+    {
+      "matches": ["<all_urls>"],
+      "js": ["jquery/jquery-3.3.1.min.js", "js/content.js"]
+    }
+  ]
+}

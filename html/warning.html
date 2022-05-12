@@ -1,0 +1,54 @@
+<!DOCTYPE html>
+<html lang="en">
+  <head>
+    <meta charset="UTF-8" />
+    <meta name=“viewport” content=“user-scalable=no, width=device-width”>
+    <title>Chrome Anti Phishing</title>
+    <link rel="stylesheet" href="../css/warning.css" type="text/css" />
+  </head>
+  <body id="chrome-warning">
+    <div id="errorPageContainer" class="container">
+      <div id="errorTitle" class="title">
+        <h1 class="title-text" id="errorTitleText_phishing">
+          Deceptive site ahead
+        </h1>
+      </div>
+
+      <div id="errorLongContent">
+        <div id="errorShortDesc">
+          <p id="errorShortDescText_phishing">
+            We blocked this page because it may trick you into doing something
+            dangerous like revealing personal information like passwords or
+            credit cards.
+          </p>
+        </div>
+
+        <div id="advisoryDesc">
+          <p id="advisoryDescText">
+            Advisory provided by Chrome Anti Phishing.
+          </p>
+        </div>
+
+        <div id="buttons" class="button-container">
+          <button id="seeDetailsButton">See details</button>
+          <a id="goBackButton">Go back</a>
+        </div>
+      </div>
+
+      <div id="errorDescriptionContainer" hidden>
+        <div class="error-description" id="errorLongDesc_phishing">
+          <p id="phishing_error_desc_override">
+            <span id="phishing_sitename"></span> has been reported as a phishing
+            site. If you feel this domain is wrongly blacklisted, you can
+            <a id="report_detection">report a detection problem</a> or
+            <a id="ignore_warning_link">ignore the risk</a> and go to this
+            unsafe site.
+          </p>
+        </div>
+      </div>
+    </div>
+    <script src="../jquery/jquery-3.3.1.min.js"></script>
+    <script src="../js/warning.js"></script>
+    <script src="../js/googleAnalytics.js"></script>
+  </body>
+</html>

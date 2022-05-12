@@ -1,0 +1,23 @@
+{
+  "name": "chrome-anti-phishing",
+  "version": "1.1.3",
+  "description": "Chrome Anti-Phishing browser extension prevents you from interacting with known scams and phishing attacks by blocking those sites and notifying you.",
+  "main": "index.js",
+  "dependencies": {},
+  "devDependencies": {
+    "eslint": "^5.16.0"
+  },
+  "scripts": {
+    "test": "echo \"Error: no test specified\" && exit 1"
+  },
+  "repository": {
+    "type": "git",
+    "url": "git+https://github.com/Segasec/anti-phishing.git"
+  },
+  "author": "",
+  "license": "ISC",
+  "bugs": {
+    "url": "https://github.com/Segasec/anti-phishing/issues"
+  },
+  "homepage": "https://github.com/Segasec/anti-phishing#readme"
+}
