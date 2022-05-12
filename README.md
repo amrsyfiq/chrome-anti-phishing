@@ -8,9 +8,11 @@
   There are two technique that will be combined for this project which are blacklist technique and machine learning technique. The dataset from PhishTank is used for the blacklist technique. The used dataset was split into two parts: phishing and non-phishing. The phishing dataset was obtained from PhishTank while the non-phish dataset was obtained manually. For the machine learning technique, the ‘Phishing Website Dataset’ from UCI Machine Learning repository is used to evaluate the machine learning technique.
       
 ## Setup
-1.    To open up your extensions page, click the menu icon (three dots) at the top right of Chrome
-2.    Point to `More Tools`, then click on `Extensions`
-3.    Click the `Load unpacked` and select the Chrome-anti-phishing folder
-4.    For the black list technique, copy the "phishing-urls.json" file to the localhost directory
-5.    Update the `phishing-urls.json` repository manually from `https://www.phishtank.com/developer_info.php`
+1.    Copy the "phishing-urls.json" file to the localhost directory for the black list technique
+2.    To open up your extensions page, click the menu icon (three dots) at the top right of Chrome
+3.    Point to `More Tools`, then click on `Extensions`
+4.    Click the `Load unpacked` and select the Chrome-anti-phishing folder
+5.    For the black list technique, copy the "phishing-urls.json" file to the localhost directory
+6.    To update the `phishing-urls.json`, get the repository manually from `https://www.phishtank.com/developer_info.php`
+7.    Reload the extensions in steps `2-4`
 
