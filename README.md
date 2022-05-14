@@ -16,4 +16,4 @@ There are two technique that will be combined for this project which are blackli
 4.  Click the `Load unpacked` and select the Chrome-anti-phishing folder
 5.  For the black list technique, copy the "phishing-urls.json" file to the localhost directory
 6.  To update the `phishing-urls.json`, get the repository manually from https://www.phishtank.com/developer_info.php
-7.  Reload the extensions and restart chrome
+7.  Reload the Chrome Anti-Phishing extension and restart Chrome
